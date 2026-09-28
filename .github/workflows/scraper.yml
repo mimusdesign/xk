@@ -2,7 +2,7 @@ name: Scraper Kosovo
 
 on:
   schedule:
-    - cron: '53 5 * * 1'
+    - cron: '56 1 * * 0,3'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
